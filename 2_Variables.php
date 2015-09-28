@@ -9,7 +9,7 @@
 #Tipos de var, nombre precedido de $
 $numero = 50;
 $cadena="<br />Es una cadena";
-$boolean = true; //me devolvera 1, si es false devuelve 0 o nasa
+$boolean = true; //me devolvera 1, si es false devuelve 0 o nada
  echo $numero;
  echo $cadena;
  echo $boolean;
