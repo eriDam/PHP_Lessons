@@ -19,7 +19,8 @@ echo "La posición 3 es: ".$array[2]."<br/>";
 
 #Array Asociativos o personalizados, creo una clave para acceder a los elementos
 $asociativo = array("clave1" => "elemento1", "clave2" => 2);
-echo "Accedemos con la clave ".$asociativo["clave1"];
+echo "Accedemos con la clave ".$asociativo["clave1"]."<br />";
+echo "Accedemos con la 2ª clave ".$asociativo["clave2"];
 
  
 ?>
