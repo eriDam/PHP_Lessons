@@ -47,12 +47,31 @@ echo "<br>";
 //Operadores de comparación  igual ==, idéntico ===, diferente != o <>, mayor q >, menor q <, <= o >=
 echo "******Ejemplos Operadores de comparación"."<br>";
 echo (6 >= 4);#1 si es true, cero o nada si false
-echo "<br>";
+echo "<br>"."<br>";
+
 echo (5 == 11);
+echo "En la comparación anterior no sale nada o sale cero por ser false"."<br>";
+
+//Operadores de prueba de errores se define a través de @
+//Elimina el error de la vista del usuario
+echo "Hola"."<br>";
+@ define (); //Esto debería producir un error, pero con la @ lo oculto
+define(); //Esto debería producir un error,
+echo "<br>"."<br>";
+//Operadores de incremento y decremento
+echo "******Ejemplos Operadores de incremento y decremento"."<br>";
+$variable = 3;
+echo "variable ha aumentado antes de mostrarse: ";
+echo ++$variable;
 echo "<br>";
- 
-
-
+echo "Ahora ha disminuido".--$variable;
+echo "<br>"."<br>";
+//Operadores de lógica, aquellos que nos permiten agregar operaciones/condiciones en un condicional && y ||
+echo "******Ejemplos Operadores de lógica && y ||"."<br>";
+echo ((2 == 2) && (2 != 1)); #sacará valor true 1
+echo "<br>";
+echo ((4 == 4) || (4 != 4)); #sacará valor true 1 si uno de los dos es cierto
+echo "<br>";
 ?>
 </body>
 </html>
